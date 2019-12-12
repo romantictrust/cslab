@@ -13,4 +13,7 @@
     "TagHelpers": [],
     "CSharpLanguageVersion": 703
   },
-  "RootNamespace": n
+  "RootNamespace": null,
+  "Documents": [],
+  "SerializationFormat": "0.2"
+}

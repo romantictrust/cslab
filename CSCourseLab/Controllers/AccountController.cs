@@ -54,8 +54,6 @@ namespace CSCourseLab.Controllers
             {
                 try
                 {
-                    var users = _db.Users.ToList();
-                    var check = _db.Database.Exists();
                     User user = (from u in _db.Users
                                  where u.Login == login && u.Password == password
                                  select u).FirstOrDefault();

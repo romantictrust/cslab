@@ -14,9 +14,9 @@ namespace CSCourseLab
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-                name: "Default",
+                name: "Request",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Request", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
